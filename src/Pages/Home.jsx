@@ -6,7 +6,7 @@ import Navbar from "./Navbar.jsx";
 
 const Home = () => {
   return (
-    <div className="w-full h-screen mb-6 pb-6" id="Home">
+    <div className="w-full h-screen p-4" id="Home">
       <div>
         <Navbar />
       </div>
@@ -25,8 +25,6 @@ const Home = () => {
           <div className="space-x-5 text-center">
             <Link to={"About"} smooth={true} duration={500}>
               <Button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.95 }}
                 title="About Me"
                 className=" bg-gradient-to-r from-blue-700 via-blue-600 to-blue-500 md:text-xl md:h-[58px] md:w-52 "
               />
